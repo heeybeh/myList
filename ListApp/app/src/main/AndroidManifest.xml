@@ -30,6 +30,12 @@
             android:configChanges="orientation"
             android:screenOrientation="portrait">
         </activity>
+        <activity android:name=".activities.TheWebView"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        <service android:name=".services.ServiceLocation"
+            android:process=":locationService" />
 
     </application>
 
